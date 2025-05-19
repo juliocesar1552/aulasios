@@ -8,23 +8,29 @@
 <body>
     <form action="">
 
-        <p>Pastelaria do sem pai</p>
+        <fieldset id="Cardapio">
+            <legend>Seleção de Sabores</legend>
+            <p>Pastelaria do sem pai</p>
 
-        <select name="" id="">
-            <option value="Pizza">Pizza</option>
-            <option value="Queijo">Queijo</option>
-            <option value="bauru">bauru</option>
-            <option value="nutela">Nutela</option>
-            <option value="frango com catupiry">Frango com Catupiry</option>
-            <option value="brocolis">Brocolis</option>
-            <option value="carne">Carne</option>
-            <option value="quatro Queijo">quatro Queijo</option>
-            <option value="escarola">Escarola</option>
-            <option value="carne com Queijo">Carne com Queijo</option>
+            <select name="" id="">
+                <option value="Pizza">Pizza</option>
+                <option value="Queijo">Queijo</option>
+                <option value="bauru">bauru</option>
+                <option value="nutela">Nutela</option>
+                <option value="frango com catupiry">Frango com Catupiry</option>
+                <option value="brocolis">Brocolis</option>
+                <option value="carne">Carne</option>
+                <option value="quatro Queijo">quatro Queijo</option>
+                <option value="escarola">Escarola</option>
+                <option value="carne com Queijo">Carne com Queijo</option>
+    
+            </select>
+        </fieldset>
 
-        </select>
+        <fieldset>
+            <legend>localidade</legend>
 
-        <p>Estamos expandindo nossas unidade, sugira a sua cidade para que avaliamos a abertura de umas das nossas lojas </p>
+                <p>Estamos expandindo nossas unidade, sugira a sua cidade para que avaliamos a abertura de umas das nossas lojas </p>
 
         <datalist id="Municipio">
             <option value="maua">Maua</option>
@@ -43,11 +49,13 @@
         <input type="text" autocomplete="on" list="Municipio"
         name="IndicaMunicipio" id="IndicaMunicipio">~
 
+            
+        </fieldset>
 
 
 
 
-        <input type="submit" value="Enviar">
+        <input type="submit" value="Enviar Sugetão">
     </form>
 </body>
 </html>
