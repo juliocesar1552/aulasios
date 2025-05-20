@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    color: rgb(252, 252, 252);
+    background-color: darkorchid;
+    
+}
+header{
+    background-color: darkslateblue;
+    font-style: italic;
+    margin: 15px;
+    padding: 10px;
+}
+nav{
+    display: flex;
+    
+}
+ul{
+
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+a{
+    text-decoration: none ;
+    color: aliceblue;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    font-style: italic;
+    width: 100%;
+    
+}
