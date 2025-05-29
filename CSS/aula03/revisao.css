@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    border: 5px solid red;
+    padding: 15px;
+    width: 250px;
+    height: 100px;
+}

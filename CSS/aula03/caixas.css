@@ -1,0 +1,27 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.quadrado{
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+}
+.quadrado-azul{
+    background-color: blue;
+}
+.quadrado-vermelho{
+    background-color: red;
+}
+.quadrado-amarelo{
+    background-color: rgb(214, 214, 21);
+
+}
+.quadrado-verde{
+    background-color: rgb(126, 206, 45);
+}
+#quadrado3{
+border: 3px dotted black;
+}
