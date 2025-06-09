@@ -13,8 +13,17 @@
     min-width: 100px;
     background-color: blue;
     border: solid white 5px;
+    font-size: 95px;
 }
 
+#conteiner{
+    background-color: black;
+    height: ;
+}
+
+#dois{
+    justify-self: flex-end;
+}
 
 
 

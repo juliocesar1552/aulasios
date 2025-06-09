@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#conteiner{
+    background-color: rgb(7, 17, 17);
+    display: flex;
+    justify-content: space-between;
+    
+    /* o flex-wrap fas com que seu conteine flexivel distribua 
+    ao items em uma nova linha ou coluna quando a tela estiver muito cheia */
+}
+
+.quadrado{
+    background-color: chartreuse;
+    width: 250px;
+    height: 250px;
+    border: white solid 5px;
+    font-size: 95px;
+    color: darkkhaki;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+#quatro{
+    flex-grow: 3;
+    /* flex -grow fas com que o elemento cesça dentro do contador de acordo com o numero indicado
+    lembrando que todos os items começam com o padrao o, por exemplo, se colocar o valor 2,
+     o elementoocupa o espaço */
+     flex-shrink: 3;
+     /* flex-shrink, ele vaiso diminuir rapido */ 
+    }
+
+#seis{
+    flex: 1 1 300px;
+/* flex e uma abreivaçao para os 3 outros elementos flex primeiros numero
+correspotente ao flex graw segundo numero correspotente ao flex senhr
+terciero numero correspotente ao flex basis */
+
+    flex-basis: 500px;
+    /* flex-basis delimita um tamanho minimo inicial para os elementos flexiveis*/
+}
+
